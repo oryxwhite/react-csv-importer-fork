@@ -5,7 +5,7 @@ import { FormatErrorMessage } from './FormatErrorMessage';
 
 import './FormatRawPreview.scss';
 
-const RAW_PREVIEW_SIZE = 500;
+const RAW_PREVIEW_SIZE = 0;
 
 export const FormatRawPreview: React.FC<{
   chunk: string;
@@ -22,8 +22,8 @@ export const FormatRawPreview: React.FC<{
     <div className="CSVImporter_FormatRawPreview">
       <div className="CSVImporter_FormatRawPreview__scroll">
         <pre className="CSVImporter_FormatRawPreview__pre">
-          {chunkSlice}
-          {chunkHasMore && <aside>...</aside>}
+          {/* {chunkSlice} */}
+          {/* {chunkHasMore && <aside>...</aside>} */}
         </pre>
       </div>
 
