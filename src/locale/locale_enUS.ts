@@ -16,7 +16,7 @@ export const enUS: ImporterLocale = {
     goBackButton: 'Go Back',
     nextButton: 'Choose columns',
 
-    rawFileContentsHeading: 'Raw File Contents',
+    rawFileContentsHeading: '',
     previewImportHeading: 'Preview Import',
     dataHasHeadersCheckbox: 'Data has headers',
     previewLoadingStatus: 'Loading preview...'

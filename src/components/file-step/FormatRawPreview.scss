@@ -2,6 +2,7 @@
 
 .CSVImporter_FormatRawPreview {
   &__scroll {
+    display: none;
     margin-bottom: 1.2em;
     height: 6em;
     overflow: auto;
@@ -11,13 +12,14 @@
   }
 
   &__pre {
+    display: none;
     margin: 0; // override default
     padding: 0.5em 1em;
     line-height: 1.25;
     font-size: 1.15em;
 
     & > aside {
-      display: inline-block;
+      display: none;
       margin-left: 0.2em;
       padding: 0 0.25em;
       border-radius: $borderRadius * 0.5;
